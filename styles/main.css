@@ -1,0 +1,175 @@
+
+/* styles for the body */ 
+
+body {
+
+    margin: 0px; /* gets ride of the autoamtic margin space at the sides of the browser*/ 
+
+
+    background-image: linear-gradient(#003D55,#55CACA,#317DAF,#E3D7DF,#F2DFA5,#F6C7CB,#BA8B43, #7B4F12); /* adds a coral color gradient where the text should be after  */ 
+    
+}
+
+/* font styles for all the headers */ 
+
+h1 {
+
+    font-family: 'Lobster', cursive;
+    color: #211C06;  
+    text-shadow: 0px 0px 0px #DAE1E5;
+}
+
+/* font styles for all the text under any header */ 
+
+p, div {
+
+    font-family: 'DM Sans', sans-serif;
+    color: #211C06;  
+    text-shadow: 0px 0px 0px #DAE1E5;
+}
+
+
+/* styles for the hero container*/ 
+
+.hero-container {
+
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 270px; 
+    /* border: 1px dotted blue;  */ /* see the total space around the website title font */ 
+    padding: 180px 585px 180px 585px; 
+
+    background-image: url("https://media.giphy.com/media/gi8vDUf7GZXZjaBIKJ/giphy.gif"); 
+    background-size: cover; 
+} 
+
+/* styles for the hero header font, "Martin's Aquarium" */ 
+
+#hero-header-font {
+
+    color: #DAE1E5; 
+    font-size: 25px; 
+    /* font-family: 'Lobster', cursive; */ /* covered by the h1 styles below */ 
+    text-align: center; 
+    text-shadow: 0px 0px 2px #2B96D9;
+
+}
+
+/* styles for fish list header container */
+
+.fish-header-container {
+
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: auto;  
+    padding-top: 10px;
+}
+
+/* styles for fish list header font, "The Fish"*/ 
+
+#fish-header-font {
+
+    text-align: center; 
+    font-family: 'Lobster', cursive;
+
+}
+
+/* styles for the fish list container */ 
+
+.fishList {
+
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; /* any new fish added will go to the next row  */ 
+
+    /* border: 1px dotted blue; */ /* see the total space around the container for fish content */ 
+    padding: 10px 0px 100px 0px; 
+
+}
+
+/* styles for the fish list content */
+
+.fish-card {
+
+    /* border: 1px dotted red; */ /* see the total space around the fish content, images and text   */
+    padding: 20px; 
+    text-align: center; 
+
+    /* border-radius: 5%;  */
+}
+
+/* styles for fish images */
+
+img {
+
+    border-radius: 5%; 
+    height: 250px; 
+    width: 300px; 
+}
+
+/* styles for the quotes section container */ 
+
+.quotes-container {
+
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 270px; 
+    /* border: 1px dotted blue; */  /* see the total space around the website title font */ 
+    padding: 180px 585px 180px 585px;  
+
+    text-align: center; 
+}
+
+/* styles for the quote font*/ 
+
+#section-quotes-text {
+
+    font-size: 19px; 
+}
+
+/* styles for the locations container */ 
+
+.locations-container {
+
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 270px; 
+    /* border: 1px dotted blue; */  /* see the total space around the website title font */ 
+    padding: 180px 585px 180px 585px;  
+
+    text-align: center; 
+}
+
+/* styles for the locations text */ 
+
+.section-locations-text {
+
+    font-size: 19px; 
+}
+
+/* styles for the aside, or fish & tank care, container */ 
+
+.aside-container {
+
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 270px; 
+    /*border: 1px dotted blue;*/  /* see the total space around the website title font */ 
+    padding: 180px 585px 180px 585px;  
+
+    text-align: center; 
+}
+
+/* styles for the fish & tank care text */ 
+
+.aside-text {
+    
+    font-size: 18px; 
+    width: 290px; 
+
+}
