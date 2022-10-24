@@ -1,0 +1,98 @@
+<!-- Use index.html to build a web page that lists fish, quotes, harvesting locations, and fish/tank care tips on the right side of the page. You will accomplish it by first decomposing the site into smaller components. -->
+
+<!-- Get boilerplate HTML doc elements by typing "!" in an empty html module. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head Start-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin's Aquarium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Google font for hero header and titles-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Google font for everything else-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css"> <!--applies the styling from main.css to our HTML created in the browser-->
+</head>
+
+<!--Body Start-->
+<body>
+    <div class="body-container">
+        <!-- 1. Hero Page-->
+        <div class="hero-container">
+            <header id="hero-header-font">
+                <h1>Martin's Aquarium</h1>
+            </header>
+        </div>
+        <!-- 2. Fish Section-->
+        <div class="fish-header-container">
+            <header id="fish-header-font">
+                <h1>The Fish</h1>
+            </header>
+        </div>
+        <div class="section-fish-list-container">
+            <!--COMMENTING OUT THIS "FISH LIST" SECTION BECAUSE INSTRUCTIONS SAID TO DO THIS-->
+            <!-- <section class="fish-list"> 
+                <header>
+                    <h4 id="section-fish-header">Fish</h4>
+                </header>
+                <div class="section-fish-images">
+                    <img src="https://www.americanoceans.org/wp-content/uploads/2021/10/clownfish.jpg" alt="orange clown fish laying in a bed of ivory sea anemone fibers">
+                    <img src="https://cf.ltkcdn.net/kids/images/orig/305320-1600x1066-fascinating-seahorse-facts-kids.jpg" alt="a bright, yellow seahorse floating on a blurry background"> 
+                    <img src="https://reefbuilders.com/wp-content/blogs.dir/1/files/2020/06/skunk-cleaner-shrimp2.jpg" alt="a red and white striped sitting in protruding coral fibers"> 
+                    <img src="https://live.staticflickr.com/3770/12919899705_a482c7056f_b.jpg" alt="a yellow angel fish against blue background with coral"> 
+
+                </div>
+                <div class="section-fish-properties">
+                    <p>species: clown fish, name: carrot, food: algae, length: 3 in, harvest location: great barrier reef</p>
+                    <p>species: sea horse, name: seabiscuit, food: plankton, length: 12 in, harvest location: indian ocean</p>
+                    <p>species: pacific cleaner shrimp, name: jumbo, food: dead tissue, length: 12 in, harvest location: coral reef caves</p>
+                    <p>species: angelfish, name: coconut, food: nematodes, length: 6 in, harvest location: northwestern hawaian islands</p>
+                </div> 
+            </section> --> 
+        </div>
+        <!-- 3. Quotes Section, Locations Section, and Aside Container-->
+        <div class="quotes-locations-aside-container">
+            <!--Quotes-->
+            <div class="quotes-container">
+                <section>
+                    <header>
+                        <h1 id="section-quotes-header">I Always Say...</h1>
+                    </header>
+                    <p id="section-quotes-text">"just keep swimming!"</p>
+                </section>
+            </div>
+            <!--Locations-->
+            <div class="locations-container">
+                <section>
+                    <header>
+                        <h1 id="section-locations-header">The Places I've Been</h1>
+                    </header>
+                    <p class="section-locations-text">great barrier reef</p>
+                    <p class="section-locations-text">indian ocean</p>
+                    <p class="section-locations-text">coral reef caves</p>
+                    <p class="section-locations-text">northwestern hawaiian islands</p>
+                </section>
+            </div>
+            <!--Aside-->
+            <div class="aside-container">
+                <aside>
+                    <header>
+                        <h1 id="aside-header">Tank & Fish Care</h1>
+                    </header>
+                    <p class="aside-text">clean tank once every two weeks </p>
+                    <p class="aside-text">tank water salinity should be 1.026</p>
+                    <p class="aside-text">tank temperature is 78 degrees</p>
+                </aside>
+            </div>
+        </div>
+    </div>
+    <!-- tells your browser to load and run your javascript, so the fish print to the console in main.js-->
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
